@@ -3,7 +3,7 @@ Checks whether a square is magic
 
 Function isMagicSquare takes the matrix and checks whether every row, column and main diagonals sum to the same value
 
-Time complexity: total t(n)=2n+1+n^2+n^2+n+2n=2n^2+5n+1 --> Big-Theta(n^2)
+Time complexity: total t(n)=4n^2+10n+2~4n^2+12n+2 --> Big-Theta(n^2)
 
 2. File main.c
 Reads the matrix in from a file and checks whether the square is magic
