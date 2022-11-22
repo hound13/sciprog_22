@@ -15,3 +15,4 @@ In line 39, we get the answer whether the square is magic
 
 3. matrix.txt
 A matrix with integer elements separated by spaces
+Note: only one space is allowed between adjacent elements in each row

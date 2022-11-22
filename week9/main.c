@@ -12,6 +12,7 @@ int dimofmatrix(FILE *fp){
     line_len = strlen(buf);
     for (int i = 0; i < line_len; i++){
         if (buf[i]==' ') // if the character read is a space, dim plus 1
+		//in the file matrix.txt, only one space is allowed between adjacent elements in each row
             dim++;
         }
     return dim+1;
